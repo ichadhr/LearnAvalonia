@@ -1,0 +1,23 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:LearnAvalonia.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:DataType="viewModels:OverviewPageViewModel"
+             x:Class="LearnAvalonia.Pages.OverviewPage">
+    
+    <StackPanel HorizontalAlignment="Stretch" Margin="{StaticResource PageMargin}" Background="Transparent" Spacing="20">    
+        <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto">
+            <StackPanel Orientation="Vertical"
+                        HorizontalAlignment="Stretch"
+                        Spacing="16">
+                <TextBlock Text="{CompiledBinding Path=HardwareInfo[0].OsName}"/>
+                <TextBlock Text="{CompiledBinding Path=HardwareInfo[0].Name}"/>
+                <TextBlock Text="{CompiledBinding Path=HardwareInfo[0].Arc}"/>
+                <TextBlock Text="{CompiledBinding Path=HardwareInfo[0].CpuPhysicalCore}"/>
+                <TextBlock Text="{CompiledBinding Path=HardwareInfo[0].CpuLogicalCore}"/>
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</UserControl>

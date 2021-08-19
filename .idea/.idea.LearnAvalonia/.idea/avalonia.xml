@@ -4,6 +4,9 @@
     <option name="projectPerEditor">
       <map>
         <entry key="LearnAvalonia/App.axaml" value="LearnAvalonia/LearnAvalonia.csproj" />
+        <entry key="LearnAvalonia/Pages/FormPaageViewModel.axaml" value="LearnAvalonia/LearnAvalonia.csproj" />
+        <entry key="LearnAvalonia/Pages/FormPage.axaml" value="LearnAvalonia/LearnAvalonia.csproj" />
+        <entry key="LearnAvalonia/Pages/OverviewPage.axaml" value="LearnAvalonia/LearnAvalonia.csproj" />
         <entry key="LearnAvalonia/Styles/SideBar.axaml" value="LearnAvalonia/LearnAvalonia.csproj" />
         <entry key="LearnAvalonia/Styles/Styles.axaml" value="LearnAvalonia/LearnAvalonia.csproj" />
         <entry key="LearnAvalonia/Views/MainView.axaml" value="LearnAvalonia/LearnAvalonia.csproj" />

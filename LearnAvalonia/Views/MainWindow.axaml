@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LearnAvalonia.Views"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450" Width="1400" Height="800"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450" Width="1400" Height="900"
         x:Class="LearnAvalonia.Views.MainWindow"
         x:Name="MainWindow"
         Background="{x:Null}"
@@ -27,13 +27,13 @@
                 <NativeMenuItem.Menu>
                     <NativeMenu>
                         <NativeMenuItem Header="Open" Gesture="Ctrl+O"/>
-                        <NativeMenuItemSeperator />
+                        <NativeMenuItemSeparator />
                         <NativeMenuItem Header="Recent">
                             <NativeMenuItem.Menu>
                                 <NativeMenu/>
                             </NativeMenuItem.Menu>
                         </NativeMenuItem>
-                        <NativeMenuItemSeperator />
+                        <NativeMenuItemSeparator />
 
                     </NativeMenu>
                 </NativeMenuItem.Menu>

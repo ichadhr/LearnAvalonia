@@ -1,13 +1,12 @@
-using System;
+using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Input;
 using Avalonia.Markup.Xaml;
 
-namespace LearnAvalonia.Views
+namespace LearnAvalonia.Pages
 {
-    public class MainView : UserControl
+    public class FormPage : UserControl
     {
-        public MainView()
+        public FormPage()
         {
             InitializeComponent();
         }
@@ -16,6 +15,5 @@ namespace LearnAvalonia.Views
         {
             AvaloniaXamlLoader.Load(this);
         }
-
     }
 }

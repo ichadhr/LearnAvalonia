@@ -1,17 +1,17 @@
 using Avalonia;
-using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
 namespace LearnAvalonia.Views
 {
-    public partial class MainWindow : FluentWindow
+    public class MainWindow : FluentWindow
     {
         public MainWindow()
         {
             InitializeComponent();
-#if DEBUG
+            
+            #if DEBUG
             this.AttachDevTools();
-#endif
+            #endif
         }
 
         private void InitializeComponent()

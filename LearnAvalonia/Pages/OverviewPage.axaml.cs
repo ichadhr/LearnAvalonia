@@ -1,21 +1,21 @@
-using System;
+using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Input;
 using Avalonia.Markup.Xaml;
+using LearnAvalonia.ViewModels;
 
-namespace LearnAvalonia.Views
+namespace LearnAvalonia.Pages
 {
-    public class MainView : UserControl
+    public class OverviewPage : UserControl
     {
-        public MainView()
+        public OverviewPage()
         {
             InitializeComponent();
+            DataContext = new OverviewPageViewModel();
         }
 
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
         }
-
     }
 }
